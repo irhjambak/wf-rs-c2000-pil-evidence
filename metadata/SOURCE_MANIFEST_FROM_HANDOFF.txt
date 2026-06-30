@@ -1,0 +1,31 @@
+WF-RS C2000 PIL evidence package metadata
+
+Public package scope:
+- processor-in-the-loop evidence only;
+- paired host-reference and C2000 serial logs;
+- command-error summaries;
+- generated figures;
+- reviewer-facing documentation;
+- SHA-256 integrity manifest.
+
+Not included in the public evidence release:
+- full simulation source package;
+- MATLAB deterministic or Monte Carlo study package;
+- optional firmware and host-runner source folders;
+- manuscript working drafts or Overleaf build products.
+
+Recorded target:
+- TI LAUNCHXL-F28379D / TMS320F28379D C2000.
+
+Recorded serial configuration:
+- COM6;
+- 115200 baud;
+- ASCII request-response protocol;
+- startup line READY,C2000_PIL.
+
+Evidence summary:
+- six representative scenarios;
+- 3562 plant rows;
+- 714 matched controller updates;
+- zero protocol failures;
+- command differences at numerical roundoff level.

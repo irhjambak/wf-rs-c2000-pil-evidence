@@ -1,0 +1,21 @@
+# Local/runtime clutter
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Do not upload duplicate archives through git
+*.zip
+*.tar.gz
+
+# Evidence-only public repository: keep docs, metadata, results, README,
+# and MANIFEST_SHA256.txt. These optional source folders are intentionally
+# excluded unless the supervisor/professor asks for code release.
+firmware/
+host/
+requirements.txt
+SOURCE_CODE_README.md
